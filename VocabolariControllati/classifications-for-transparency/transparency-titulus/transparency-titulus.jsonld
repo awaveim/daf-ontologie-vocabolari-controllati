@@ -1,10 +1,6 @@
 {
   "@graph": [
     {
-      "@id": "_:genid1",
-      "@type": "http://www.w3.org/2002/07/owl#Ontology"
-    },
-    {
       "@id": "http://dati.gov.it/data/resource/ContactPoint/voc_AgID",
       "@type": [
         "http://www.w3.org/2002/07/owl#NamedIndividual",
@@ -647,7 +643,7 @@
       ],
       "http://purl.org/dc/terms/modified": {
         "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2019-01-04"
+        "@value": "2020-04-08"
       },
       "http://purl.org/dc/terms/publisher": {
         "@id": "http://spcdata.digitpa.gov.it/Amministrazione/agid"
@@ -712,7 +708,7 @@
       ],
       "http://www.w3.org/2004/02/skos/core#editorialNote": {
         "@language": "it",
-        "@value": "\n\t\n\t\tIl presente vocabolario fa riferimento alle linee guida recanti indicazioni sull’attuazione degli obblighi di pubblicità, trasparenza e diffusione di informazioni contenute nel d.lgs. 33/2013 come modificato dal d.lgs. 97/2016, reperibili sul sito ANAC all'indirizzo: https://www.anticorruzione.it/portal/public/classic/AttivitaAutorita/AttiDellAutorita/_Atto?ca=6667.\n\t\t\n\t\tIL vocabolario formalizza l'architettura di informazione proposta per i siti della Pubblica Amministrazione, sezione \"Amministrazione Trasparente\", nell'allegato al Decreto Legislativo 14 marzo 2013, n. 33 (http://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2013-03-14;33), tenendo conto delle successive modifiche introdotte con Decreto Legislativo 25 maggio 2016, n. 97 (http://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2016-05-25;97).\n\t\t\n\t\tPer le traduzioni si sono riutilizzati ove possibile lavori precedenti, integrando voci pre-esistenti nei siti citati di seguito.\n\t\n\t\tPer la traduzione in Inglese:\n\t    - [CNR](https://www.cnr.it/en/amministrazione-trasparente)\n\t\t- [Ministero Esteri](https://www.esteri.it/mae/en/trasparenza_comunicazioni_legali/)\n\t\t- [SIAE](https://www.siae.it/en/transparent-siae/transparent-siae)\n\t\t\n\t\tPer la traduzione in Tedesco:\n\t\t- [provincia bolzano](http://www.provinz.bz.it/de/default.asp)\n\t\t\n\t"
+        "@value": "\r\n\t\r\n\t\tIl presente vocabolario fa riferimento alle linee guida recanti indicazioni sull’attuazione degli obblighi di pubblicità, trasparenza e diffusione di informazioni contenute nel d.lgs. 33/2013 come modificato dal d.lgs. 97/2016, reperibili sul sito ANAC all'indirizzo: https://www.anticorruzione.it/portal/public/classic/AttivitaAutorita/AttiDellAutorita/_Atto?ca=6667.\r\n\t\t\r\n\t\tIL vocabolario formalizza l'architettura di informazione proposta per i siti della Pubblica Amministrazione, sezione \"Amministrazione Trasparente\", nell'allegato al Decreto Legislativo 14 marzo 2013, n. 33 (http://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2013-03-14;33), tenendo conto delle successive modifiche introdotte con Decreto Legislativo 25 maggio 2016, n. 97 (http://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2016-05-25;97).\r\n\t\t\r\n\t\tPer le traduzioni si sono riutilizzati ove possibile lavori precedenti, integrando voci pre-esistenti nei siti citati di seguito.\r\n\t\r\n\t\tPer la traduzione in Inglese:\r\n\t    - [CNR](https://www.cnr.it/en/amministrazione-trasparente)\r\n\t\t- [Ministero Esteri](https://www.esteri.it/mae/en/trasparenza_comunicazioni_legali/)\r\n\t\t- [SIAE](https://www.siae.it/en/transparent-siae/transparent-siae)\r\n\t\t\r\n\t\tPer la traduzione in Tedesco:\r\n\t\t- [provincia bolzano](http://www.provinz.bz.it/de/default.asp)\r\n\t\t\r\n\t"
       },
       "http://www.w3.org/2004/02/skos/core#hasTopConcept": [
         {
@@ -777,6 +773,9 @@
         },
         {
           "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus/21"
+        },
+        {
+          "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus/22"
         }
       ],
       "http://www.w3.org/2004/02/skos/core#prefLabel": [
@@ -1317,6 +1316,44 @@
       "http://www.w3.org/2004/02/skos/core#scopeNote": {
         "@language": "it",
         "@value": "D.lgs. n. 33/2013, Art. 15, c. 1, lett. c"
+      },
+      "https://w3id.org/italia/onto/CLV/hasRankOrder": {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "2"
+      }
+    },
+    {
+      "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-trasparency/transparency-titulus/0302",
+      "@type": [
+        "http://www.w3.org/2002/07/owl#NamedIndividual",
+        "http://www.w3.org/2004/02/skos/core#Concept",
+        "https://w3id.org/italia/onto/Transparency/TransparencyDataTypology"
+      ],
+      "http://purl.org/dc/terms/identifier": "03.02",
+      "http://www.w3.org/2004/02/skos/core#broader": {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-trasparency/transparency-titulus/03"
+      },
+      "http://www.w3.org/2004/02/skos/core#inScheme": {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus"
+      },
+      "http://www.w3.org/2004/02/skos/core#notation": "03.02",
+      "http://www.w3.org/2004/02/skos/core#prefLabel": [
+        {
+          "@language": "de",
+          "@value": "Administratoren und Experten"
+        },
+        {
+          "@language": "en",
+          "@value": "Administrators and experts"
+        },
+        {
+          "@language": "it",
+          "@value": "Amministratori ed esperti"
+        }
+      ],
+      "http://www.w3.org/2004/02/skos/core#scopeNote": {
+        "@language": "it",
+        "@value": "D.lgs. n. 97/2016, Art. 14, c. 2"
       },
       "https://w3id.org/italia/onto/CLV/hasRankOrder": {
         "@type": "http://www.w3.org/2001/XMLSchema#integer",
@@ -3281,18 +3318,6 @@
         },
         {
           "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-trasparency/transparency-titulus/1505"
-        },
-        {
-          "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-trasparency/transparency-titulus/1506"
-        },
-        {
-          "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-trasparency/transparency-titulus/1507"
-        },
-        {
-          "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-trasparency/transparency-titulus/1508"
-        },
-        {
-          "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-trasparency/transparency-titulus/1509"
         }
       ],
       "http://www.w3.org/2004/02/skos/core#notation": "15",
@@ -3526,7 +3551,7 @@
       ],
       "http://purl.org/dc/terms/identifier": "15.06",
       "http://www.w3.org/2004/02/skos/core#broader": {
-        "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-trasparency/transparency-titulus/15"
+        "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-trasparency/transparency-titulus/22"
       },
       "http://www.w3.org/2004/02/skos/core#inScheme": {
         "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus"
@@ -3564,7 +3589,7 @@
       ],
       "http://purl.org/dc/terms/identifier": "15.07",
       "http://www.w3.org/2004/02/skos/core#broader": {
-        "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-trasparency/transparency-titulus/15"
+        "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-trasparency/transparency-titulus/22"
       },
       "http://www.w3.org/2004/02/skos/core#inScheme": {
         "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus"
@@ -3602,7 +3627,7 @@
       ],
       "http://purl.org/dc/terms/identifier": "15.08",
       "http://www.w3.org/2004/02/skos/core#broader": {
-        "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-trasparency/transparency-titulus/15"
+        "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-trasparency/transparency-titulus/22"
       },
       "http://www.w3.org/2004/02/skos/core#inScheme": {
         "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus"
@@ -3640,7 +3665,7 @@
       ],
       "http://purl.org/dc/terms/identifier": "15.09",
       "http://www.w3.org/2004/02/skos/core#broader": {
-        "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-trasparency/transparency-titulus/15"
+        "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-trasparency/transparency-titulus/22"
       },
       "http://www.w3.org/2004/02/skos/core#inScheme": {
         "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus"
@@ -4340,6 +4365,51 @@
       "https://w3id.org/italia/onto/CLV/hasRankOrder": {
         "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "2"
+      }
+    },
+    {
+      "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-trasparency/transparency-titulus/22",
+      "@type": [
+        "http://www.w3.org/2002/07/owl#NamedIndividual",
+        "http://www.w3.org/2004/02/skos/core#Concept",
+        "https://w3id.org/italia/onto/Transparency/TransparencyDataTypology"
+      ],
+      "http://purl.org/dc/terms/identifier": "22",
+      "http://www.w3.org/2004/02/skos/core#inScheme": {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus"
+      },
+      "http://www.w3.org/2004/02/skos/core#narrower": [
+        {
+          "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-trasparency/transparency-titulus/1506"
+        },
+        {
+          "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-trasparency/transparency-titulus/1507"
+        },
+        {
+          "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-trasparency/transparency-titulus/1508"
+        },
+        {
+          "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-trasparency/transparency-titulus/1509"
+        }
+      ],
+      "http://www.w3.org/2004/02/skos/core#notation": "22",
+      "http://www.w3.org/2004/02/skos/core#prefLabel": [
+        {
+          "@language": "it",
+          "@value": "Pagamenti dell'amministrazione"
+        },
+        {
+          "@language": "en",
+          "@value": "Payments administration"
+        },
+        {
+          "@language": "de",
+          "@value": "Zahlungen Der Verwaltung"
+        }
+      ],
+      "https://w3id.org/italia/onto/CLV/hasRankOrder": {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "1"
       }
     },
     {

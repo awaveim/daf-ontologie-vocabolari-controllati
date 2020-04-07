@@ -132,7 +132,7 @@ clvapit:hasRankOrder a rdfs:Property .
 	dct:publisher <http://spcdata.digitpa.gov.it/Amministrazione/agid> ; 
 	
 	dct:issued "2018-12-13"^^xsd:date ; 
-	dct:modified "2019-01-04"^^xsd:date ; 
+	dct:modified "2020-04-08"^^xsd:date ; 
 	owl:versionInfo "versione 1.0"@it, "version 1.0"@en ;
 	
 	rdfs:isDefinedBy <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency> ; 
@@ -183,7 +183,8 @@ clvapit:hasRankOrder a rdfs:Property .
 		<https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus/18>, 
 		<https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus/19>, 
 		<https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus/20>, 
-		<https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus/21> ;
+		<https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus/21>,
+		<https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus/22> ;
 	
 	.
 
@@ -395,6 +396,18 @@ clvapit:hasRankOrder a rdfs:Property .
 					 "Consultants and collaborators"@en ,
 					 "Inhaber von Aufträgen zur Zusammenarbeit und Beratung"@de ;
 	skos:scopeNote "D.lgs. n. 33/2013, Art. 15, c. 1, lett. c"@it ;
+	clvapit:hasRankOrder 2 ;
+	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus> 
+.
+
+:0302 a skos:Concept, trapit:TransparencyDataTypology ;
+	skos:notation "03.02" ;
+	dct:identifier "03.02" ;
+	skos:broader :03  ;
+	skos:prefLabel 	 "Amministratori ed esperti"@it ,
+					 "Administrators and experts"@en ,
+					 "Administratoren und Experten"@de ;
+	skos:scopeNote "D.lgs. n. 97/2016, Art. 14, c. 2"@it ;
 	clvapit:hasRankOrder 2 ;
 	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus> 
 .
@@ -980,14 +993,14 @@ clvapit:hasRankOrder a rdfs:Property .
 :15 a skos:Concept, trapit:TransparencyDataTypology ;
 	skos:notation "15" ;
 	dct:identifier "15" ;
-	skos:narrower :1501, :1502, :1503, :1504, :1505, :1506, :1507, :1508, :1509;
+	skos:narrower :1501, :1502, :1503, :1504, :1505;
 	skos:prefLabel 	 "Servizi erogati"@it ,
 					 "Services provided"@en ,
 					 "Dienste und Leistungen der Verwaltung"@de ;
 	clvapit:hasRankOrder 1 ;
 	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus> 
 .
-	
+
 :1501 a skos:Concept, trapit:TransparencyDataTypology ;
 	skos:notation "15.01" ;
 	dct:identifier "15.01" ;
@@ -1053,7 +1066,7 @@ clvapit:hasRankOrder a rdfs:Property .
 :1506 a skos:Concept, trapit:TransparencyDataTypology ;
 	skos:notation "15.06" ;
 	dct:identifier "15.06" ;
-	skos:broader :15  ;
+	skos:broader :22  ;
 	skos:prefLabel 	 "Dati sui pagamenti"@it ,
 					 "Payments data"@en ,
 					 "Daten zu den Zahlungen"@de ;
@@ -1065,7 +1078,7 @@ clvapit:hasRankOrder a rdfs:Property .
 :1507 a skos:Concept, trapit:TransparencyDataTypology ;
 	skos:notation "15.07" ;
 	dct:identifier "15.07" ;
-	skos:broader :15  ;
+	skos:broader :22  ;
 	skos:prefLabel 	 "Dati sui pagamenti del servizio sanitario nazionale"@it ,
 					 "Data on payments from the national health service"@en ,
 					 "Daten zu Zahlungen des nationalen Gesundheitsdienstes"@de ;
@@ -1077,7 +1090,7 @@ clvapit:hasRankOrder a rdfs:Property .
 :1508 a skos:Concept, trapit:TransparencyDataTypology ;
 	skos:notation "15.08" ;
 	dct:identifier "15.08" ;
-	skos:broader :15  ;
+	skos:broader :22  ;
 	skos:prefLabel 	 "Indicatore di tempestività dei pagamenti"@it ,
 					 "Average times of service provision"@en ,
 					 "Indikator zum Zahlungsverhalten der Verwaltung"@de ;
@@ -1089,7 +1102,7 @@ clvapit:hasRankOrder a rdfs:Property .
 :1509 a skos:Concept, trapit:TransparencyDataTypology ;
 	skos:notation "15.09" ;
 	dct:identifier "15.09" ;
-	skos:broader :15  ;
+	skos:broader :22  ;
 	skos:prefLabel 	 "IBAN e pagamenti informatici"@it ,
 					 "IBAN and electronic payments"@en ,
 					 "IBAN und elektronische Zahlungen"@de ;
@@ -1300,5 +1313,16 @@ clvapit:hasRankOrder a rdfs:Property .
 					 "Zusätzliche Informationen"@de ;
 	skos:scopeNote "D.lgs. n. 33/2013, Art. 7bis, c. 3"@it ;
 	clvapit:hasRankOrder 2 ;
+	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus> 
+.
+
+:22 a skos:Concept, trapit:TransparencyDataTypology ;
+	skos:notation "22" ;
+	dct:identifier "22" ;
+	skos:narrower :1506, :1507, :1508, :1509;
+	skos:prefLabel 	 "Pagamenti dell'amministrazione"@it ,
+					 "Payments administration"@en ,
+					 "Zahlungen Der Verwaltung"@de ;
+	clvapit:hasRankOrder 1 ;
 	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus> 
 .
